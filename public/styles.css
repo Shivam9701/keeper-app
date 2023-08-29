@@ -10,7 +10,6 @@ body {
   background: #eee;
   padding: 0 16px;
 }
-
 header {
   background-color: #f5ba13;
   margin: auto -16px;
@@ -33,7 +32,7 @@ footer {
 }
 
 footer p {
-  color: #ccc;
+  color: #200d0d;
 }
 .note {
   background: #fff;

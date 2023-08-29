@@ -3,7 +3,7 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="footeer">
-      <p> {year} </p>
+      <p> Copyright ©️ {year} </p>
     </footer>
   );
 }
