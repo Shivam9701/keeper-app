@@ -7,7 +7,11 @@ function App() {
   return (
     <div>
       <Header />
-      <Note />
+        {notes.map((note)=>{
+        return (<Note id={note.key}
+        title={note.title}
+        content ={note.content} />);
+      })}
       <Footer />
     </div>
   );
